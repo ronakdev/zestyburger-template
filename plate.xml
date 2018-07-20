@@ -146,9 +146,9 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
          <fields>
             <text name="city" name_friendly="City" required="1" />
             <text name="address" name_friendly="Address" required="1" />
-            <one_to_many name="local_event_list" name_friendly="Local Events List" required="1" />
-            <one_to_many name="local_careers_list" name_friendly="Local Careers List" required="1" />
-            <one_to_many name="local_menu_items" name_friendly="Local Menu Items" required="1" />
+            <one_to_many name="local_event_list" name_friendly="Local Events List" required="1" relationship="local_events" relationship_field="name"/>
+            <one_to_many name="local_careers_list" name_friendly="Local Careers List" required="1" relationship="local_careers" relationship_field="title"/>
+            <one_to_many name="local_menu_items" name_friendly="Local Menu Items" required="1" relationship="local_menu" relationship_field="name"/>
             <images name="image" name_friendly="image" required="1" />
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
             <link name="landing_link" name_friendly="Landing Link" required="1" />
@@ -202,7 +202,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             </item>
          </items>
       </pageset>
-      <pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers" parent_item="location_pages">
+      <pageset name="local_careers" name_friendly="Local Career List" view="local_careers" parent_item="location_pages">
          <fields>
             <text name="title" name_friendly="title" required="1" />
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
