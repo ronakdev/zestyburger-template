@@ -55,7 +55,7 @@
             <date name="publish_date" name_friendly="Publish Date" required="1" />
          </fields>
          <items>
-            <item link_title="Introducing the Zesty Burger" path_part="introducing-the-zesty-burger">
+            <item link_title="Introducing the Zesty Burger" path_part="introducing-the-zesty-burger" parent="blog">
                <title><![CDATA[A Blog Post]]></title>
                <content><![CDATA[<p>This is a blog post! Go edit me in the content view!</p>]]></content>
                <thumbnail><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></thumbnail>
@@ -107,7 +107,7 @@ In those blind texts lies the secrets to humanity itself, and listed on the firs
             <textarea name="calendar_description" name_friendly="Calendar Description" required="1" />
          </fields>
          <items>
-            <item link_title="Pancake Day" path_part="pancake-day">
+            <item link_title="Pancake Day" path_part="pancake-day" parent="events">
                <name><![CDATA[Pancake Day]]></name>
                <date><![CDATA[2018-07-20 11:32:29]]></date>
                <description><![CDATA[<p>That's right, for a day, ZestyBurger will become ZestyPancakes! Why? Who Knows!!</p>]]></description>
@@ -161,7 +161,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
          </fields>
          <items>
-            <item link_title="San Diego" path_part="san-diego">
+            <item link_title="San Diego" path_part="san-diego" parent="locations">
                <city><![CDATA[San Diego]]></city>
                <address><![CDATA[2018-07-20 11:32:29]]></address>
                <local_event_list></local_event_list>
@@ -204,7 +204,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
          </fields>
          <items>
-            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration">
+            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="location_pages">
                <name><![CDATA[Opening Day Celebration]]></name>
                <date><![CDATA[word]]></date>
                <description><![CDATA[We're Opening!!]]></description>
@@ -217,7 +217,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
          </fields>
          <items>
-            <item link_title="Chef" path_part="chef">
+            <item link_title="Chef" path_part="chef" parent="careers">
                <title><![CDATA[Chef]]></title>
                <description><![CDATA[Help create the next ZestyBurger. Applicant must be extremely well qualified.]]></description>
             </item>
@@ -226,7 +226,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
       <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
          <fields />
          <items>
-            <item link_title="USA Locations" path_part="usa" />
+            <item link_title="USA Locations" path_part="usa"/>
          </items>
       </templateset>
       <pageset name="foods" name_friendly="Foods" view="food" parent_item="menu">
@@ -240,7 +240,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
          </fields>
          <items>
-            <item link_title="zestyburger" path_part="zestyburger">
+            <item link_title="zestyburger" path_part="zestyburger" parent="menu">
                <name><![CDATA[Zesty Burger]]></name>
                <price><![CDATA[18.00]]></price>
                <vegetarian><![CDATA[0]]></vegetarian>
@@ -260,7 +260,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
          </fields>
          <items>
-            <item link_title="Yellow" path_part="yellow">
+            <item link_title="Yellow" path_part="yellow" parent="menu">
                <name><![CDATA[Yellow]]></name>
                <price><![CDATA[15.00]]></price>
                <alcoholic><![CDATA[1]]></alcoholic>
@@ -275,7 +275,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
          </fields>
          <items>
-         	<item link_title="Cashier" path_part="job-cashier">
+         	<item link_title="Cashier" path_part="job-cashier" parent="location_pages">
                <title><![CDATA[Cashier]]></title>
                <description><![CDATA[You will manage our money, and you will manage it well. Applicant must be able to count change.]]></description>
             </item>
@@ -292,7 +292,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <yes_no name="gluten_free" name_friendly="Gluten Free" required="1" />
          </fields>
          <items>
-			<item link_title="California Burrito" path_part="california-burrito">
+			<item link_title="California Burrito" path_part="california-burrito" parent="location_pages">
 				<name><![CDATA[California Burrito]]></name>
 				<price><![CDATA[8.00]]></price>
 				<description><![CDATA[The California burrito is the standard by which all other massive bricks of Cal-Mex food are measured. It's a jumbo flour tortilla filled with carne asada, guacamole, pico de gallo, cheese, and—setting itself apart from the bean and rice-base Mission burrito—a fat handful of French fries.
