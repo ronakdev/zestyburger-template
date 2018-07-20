@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plate>
    <head>
-<doctype>html5</doctype>
+      <doctype>html5</doctype>
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,7 +10,11 @@
       <script src="https://use.fontawesome.com/9005b8ab53.js" />
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdpVzvchiUZno_vZsAtM5JwQWNGhMCNgA" />
    </head>
-   <clippings />
+   <clippings>
+		<text name="site_name" name_friendly="Site Name" required="1" />
+		<images name="logo" name_friendly="Site Logo" limit="1" />
+		<text name="footer_text" name_friendly="Footer Text" />
+   </clippings>
    <ingredients>
       <dataset name="clippings" name_friendly="Clippings">
          <fields>
