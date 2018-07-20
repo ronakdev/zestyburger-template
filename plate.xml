@@ -217,9 +217,9 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
          </fields>
          <items>
-            <item link_title="Cook" path_part="cook">
-               <title><![CDATA[2018-07-14]]></title>
-               <description><![CDATA[word]]></description>
+            <item link_title="Chef" path_part="chef">
+               <title><![CDATA[Chef]]></title>
+               <description><![CDATA[Help create the next ZestyBurger. Applicant must be extremely well qualified.]]></description>
             </item>
          </items>
       </pageset>
@@ -241,12 +241,12 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
          </fields>
          <items>
             <item link_title="zestyburger" path_part="zestyburger">
-               <name><![CDATA[2018-07-14]]></name>
-               <price><![CDATA[2018-07-14]]></price>
+               <name><![CDATA[Zesty Burger]]></name>
+               <price><![CDATA[18.00]]></price>
                <vegetarian><![CDATA[0]]></vegetarian>
                <vegan><![CDATA[0]]></vegan>
                <gluten_free><![CDATA[0]]></gluten_free>
-               <images><![CDATA[https://svc.zesty.io/media-resolver-service/resolve/3-6a1c0cb-cgo7w/getimage/?w=199&h=200&type=fit]]></images>
+               <images><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
                <description><![CDATA[These are the Cubans, baby. This is the Cohibas; the Montecristos. This is the ZestyBurger]]></description>
             </item>
          </items>
@@ -264,7 +264,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
                <name><![CDATA[Yellow]]></name>
                <price><![CDATA[15.00]]></price>
                <alcoholic><![CDATA[1]]></alcoholic>
-               <images><![CDATA[https://svc.zesty.io/media-resolver-service/resolve/3-6a1e238-vg34x/getimage/?w=199&h=200&type=fit]]></images>
+               <images><![CDATA[https://6c706l48.media.zestyio.com/yellow.SJgrxxVXm.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
                <description><![CDATA[Powerful, heavy, liberating]]></description>
             </item>
          </items>
