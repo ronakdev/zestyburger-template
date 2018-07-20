@@ -197,7 +197,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
          <items>
             <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="location_pages">
                <name><![CDATA[Opening Day Celebration]]></name>
-               <date><![CDATA[word]]></date>
+               <date><![CDATA[https://6c706l48.media.zestyio.com/caliburrito.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></date>
                <description><![CDATA[We're Opening!!]]></description>
             </item>
          </items>
@@ -229,9 +229,6 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 				<name><![CDATA[California Burrito]]></name>
 				<price><![CDATA[8.00]]></price>
 				<description><![CDATA[The California burrito is the standard by which all other massive bricks of Cal-Mex food are measured. It's a jumbo flour tortilla filled with carne asada, guacamole, pico de gallo, cheese, and—setting itself apart from the bean and rice-base Mission burrito—a fat handful of French fries.
-
- 
-
 Can be made vegetarian on request.]]></description>
 				<images><![CDATA[https://6c706l48.media.zestyio.com/caliburrito.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
 				<vegan><![CDATA[0]]></vegan>
