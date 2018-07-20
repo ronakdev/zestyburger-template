@@ -162,7 +162,6 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <textarea name="menu_subpage_description" name_friendly="Menu Subpage Description" required="1" />
             <text name="careers_subpage_title" name_friendly="Careers Subpage Title" required="1" />
             <textarea name="careers_subpage_description" name_friendly="Careers Subpage Description" required="1" />
-            <one_to_one name="local_events" name_friendly="Local Events" />
             <images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
          </fields>
          <items>
@@ -185,19 +184,18 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
                <menu_subpage_description><![CDATA[From the blind texts themselves, here is our award-winning menu. With options for everyone, ZestyBurger caters to everyone.]]></menu_subpage_description>
                <careers_subpage_title><![CDATA[Zesty Openings]]></careers_subpage_title>
                <careers_subpage_description><![CDATA[Join your local cool kids group]]></careers_subpage_description>
-               <local_events></local_events>
                <careers_subpage_image><![CDATA[https://svc.zesty.io/media-resolver-service/resolve/3-6a35003-f1yju/getimage/?w=199&h=200&type=fit]]></careers_subpage_image>
             </item>
          </items>
       </pageset>
-      <pageset name="local_events" name_friendly="Local Event List" view="local_events" parent_item="location_pages">
+      <pageset name="local_events" name_friendly="Local Events" view="local_events" parent_item="location_pages">
          <fields>
             <text name="name" name_friendly="Name" required="1" />
             <date name="date" name_friendly="Date" required="1" />
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
          </fields>
          <items>
-            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="san-diego">
+            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="location_pages">
                <name><![CDATA[Opening Day Celebration]]></name>
                <date><![CDATA[word]]></date>
                <description><![CDATA[We're Opening!!]]></description>
