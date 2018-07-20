@@ -137,6 +137,12 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <item link_title="Locations" path_part="locations" />
          </items>
       </templateset>
+      <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
+         <fields />
+         <items>
+            <item link_title="USA Locations" path_part="usa" parent="locations"/>
+         </items>
+      </templateset>
       <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages" parent_item="usa_locations">
          <fields>
             <text name="city" name_friendly="City" required="1" />
@@ -185,18 +191,6 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             </item>
          </items>
       </pageset>
-      <templateset name="menu" name_friendly="Menu" view="menu">
-         <fields>
-            <text name="title" name_friendly="Title" required="1" />
-            <textarea name="description" name_friendly="Page description" required="1" />
-         </fields>
-         <items>
-            <item link_title="Menu" path_part="menu">
-               <title><![CDATA[Zesty Eats]]></title>
-               <description><![CDATA[From the blind texts themselves, here is our award-winning menu. With options for everyone, ZestyBurger caters to everyone.]]></description>
-            </item>
-         </items>
-      </templateset>
       <pageset name="local_events" name_friendly="Local Event List" view="local_events" parent_item="location_pages">
          <fields>
             <text name="name" name_friendly="Name" required="1" />
@@ -208,64 +202,6 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
                <name><![CDATA[Opening Day Celebration]]></name>
                <date><![CDATA[word]]></date>
                <description><![CDATA[We're Opening!!]]></description>
-            </item>
-         </items>
-      </pageset>
-      <pageset name="career_list" name_friendly="Career List" view="career_list" parent_item="careers">
-         <fields>
-            <text name="title" name_friendly="Title" required="1" />
-            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
-         </fields>
-         <items>
-            <item link_title="Chef" path_part="chef" parent="careers">
-               <title><![CDATA[Chef]]></title>
-               <description><![CDATA[Help create the next ZestyBurger. Applicant must be extremely well qualified.]]></description>
-            </item>
-         </items>
-      </pageset>
-      <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
-         <fields />
-         <items>
-            <item link_title="USA Locations" path_part="usa" parent="locations"/>
-         </items>
-      </templateset>
-      <pageset name="foods" name_friendly="Foods" view="food" parent_item="menu">
-         <fields>
-            <text name="name" name_friendly="name" required="1" />
-            <currency name="price" name_friendly="price" required="1" />
-            <yes_no name="vegetarian" name_friendly="vegetarian" required="1" />
-            <yes_no name="vegan" name_friendly="vegan" required="1" />
-            <yes_no name="gluten_free" name_friendly="Gluten Free" />
-            <images name="images" name_friendly="images" required="1" />
-            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
-         </fields>
-         <items>
-            <item link_title="zestyburger" path_part="zestyburger" parent="menu">
-               <name><![CDATA[Zesty Burger]]></name>
-               <price><![CDATA[18.00]]></price>
-               <vegetarian><![CDATA[0]]></vegetarian>
-               <vegan><![CDATA[0]]></vegan>
-               <gluten_free><![CDATA[0]]></gluten_free>
-               <images><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
-               <description><![CDATA[These are the Cubans, baby. This is the Cohibas; the Montecristos. This is the ZestyBurger]]></description>
-            </item>
-         </items>
-      </pageset>
-      <pageset name="drinks" name_friendly="Drinks" view="drink" parent_item="menu">
-         <fields>
-            <text name="name" name_friendly="name" required="1" />
-            <currency name="price" name_friendly="price" required="1" />
-            <yes_no name="alcoholic" name_friendly="Alcoholic" required="1" />
-            <images name="images" name_friendly="images" required="1" />
-            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
-         </fields>
-         <items>
-            <item link_title="Yellow" path_part="yellow" parent="menu">
-               <name><![CDATA[Yellow]]></name>
-               <price><![CDATA[15.00]]></price>
-               <alcoholic><![CDATA[1]]></alcoholic>
-               <images><![CDATA[https://6c706l48.media.zestyio.com/yellow.SJgrxxVXm.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
-               <description><![CDATA[Powerful, heavy, liberating]]></description>
             </item>
          </items>
       </pageset>
@@ -305,6 +241,70 @@ Can be made vegetarian on request.]]></description>
 				<vegetarian><![CDATA[1]]></vegetarian>
 				<gluten_free><![CDATA[0]]></gluten_free>
 			</item>
+         </items>
+      </pageset>
+      <templateset name="menu" name_friendly="Menu" view="menu">
+         <fields>
+            <text name="title" name_friendly="Title" required="1" />
+            <textarea name="description" name_friendly="Page description" required="1" />
+         </fields>
+         <items>
+            <item link_title="Menu" path_part="menu">
+               <title><![CDATA[Zesty Eats]]></title>
+               <description><![CDATA[From the blind texts themselves, here is our award-winning menu. With options for everyone, ZestyBurger caters to everyone.]]></description>
+            </item>
+         </items>
+      </templateset>
+      <pageset name="career_list" name_friendly="Career List" view="career_list" parent_item="careers">
+         <fields>
+            <text name="title" name_friendly="Title" required="1" />
+            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+         </fields>
+         <items>
+            <item link_title="Chef" path_part="chef" parent="careers">
+               <title><![CDATA[Chef]]></title>
+               <description><![CDATA[Help create the next ZestyBurger. Applicant must be extremely well qualified.]]></description>
+            </item>
+         </items>
+      </pageset>
+      <pageset name="foods" name_friendly="Foods" view="food" parent_item="menu">
+         <fields>
+            <text name="name" name_friendly="name" required="1" />
+            <currency name="price" name_friendly="price" required="1" />
+            <yes_no name="vegetarian" name_friendly="vegetarian" required="1" />
+            <yes_no name="vegan" name_friendly="vegan" required="1" />
+            <yes_no name="gluten_free" name_friendly="Gluten Free" />
+            <images name="images" name_friendly="images" required="1" />
+            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+         </fields>
+         <items>
+            <item link_title="zestyburger" path_part="zestyburger" parent="menu">
+               <name><![CDATA[Zesty Burger]]></name>
+               <price><![CDATA[18.00]]></price>
+               <vegetarian><![CDATA[0]]></vegetarian>
+               <vegan><![CDATA[0]]></vegan>
+               <gluten_free><![CDATA[0]]></gluten_free>
+               <images><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
+               <description><![CDATA[These are the Cubans, baby. This is the Cohibas; the Montecristos. This is the ZestyBurger]]></description>
+            </item>
+         </items>
+      </pageset>
+      <pageset name="drinks" name_friendly="Drinks" view="drink" parent_item="menu">
+         <fields>
+            <text name="name" name_friendly="name" required="1" />
+            <currency name="price" name_friendly="price" required="1" />
+            <yes_no name="alcoholic" name_friendly="Alcoholic" required="1" />
+            <images name="images" name_friendly="images" required="1" />
+            <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+         </fields>
+         <items>
+            <item link_title="Yellow" path_part="yellow" parent="menu">
+               <name><![CDATA[Yellow]]></name>
+               <price><![CDATA[15.00]]></price>
+               <alcoholic><![CDATA[1]]></alcoholic>
+               <images><![CDATA[https://6c706l48.media.zestyio.com/yellow.SJgrxxVXm.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
+               <description><![CDATA[Powerful, heavy, liberating]]></description>
+            </item>
          </items>
       </pageset>
       <dataset name="footer" name_friendly="Footer">
