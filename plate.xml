@@ -18,13 +18,7 @@
                 <images name="logo" name_friendly="Site Logo" limit="1" />
                 <text name="footer_text" name_friendly="Footer Text" />
             </fields>
-            <items><!--
-                <item link_title="" path_part="">
-                    <site_name />
-                    <logo />
-                    <footer_text />
-                </item>
-            --></items>
+            <items></items>
         </dataset>
         <dataset name="widgets" name_friendly="Dashboard Widgets">
             <fields>
@@ -36,35 +30,7 @@
                 <text name="header" name_friendly="Header" />
                 <textarea name="data" name_friendly="Data" />
             </fields>
-            <items><!--
-                <item link_title="" path_part="">
-                    <type />
-                    <set_zuid />
-                    <direction />
-                    <widget_size />
-                    <position />
-                    <header />
-                    <data />
-                </item>
-                <item link_title="" path_part="">
-                    <type />
-                    <set_zuid />
-                    <direction />
-                    <widget_size />
-                    <position />
-                    <header />
-                    <data />
-                </item>
-                <item link_title="" path_part="">
-                    <type />
-                    <set_zuid />
-                    <direction />
-                    <widget_size />
-                    <position />
-                    <header />
-                    <data />
-                </item>
-            --></items>
+            <items></items>
         </dataset>
         <templateset name="homepage" name_friendly="Homepage" view="homepage">
             <fields>
@@ -75,28 +41,14 @@
                 <text name="splash_link_text" name_friendly="Splash Link Text" required="1" />
                 <images name="splash_background" name_friendly="Splash Background" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Homepage" path_part="zesty_home">
-                    <splash_title />
-                    <deleted2 />
-                    <splash_description />
-                    <splash_link />
-                    <splash_link_text />
-                    <splash_background />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <templateset name="blog" name_friendly="Blog" view="blog">
             <fields>
                 <text name="title" name_friendly="Page Title" required="1" />
                 <textarea name="description" name_friendly="Page description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Blog" path_part="blog">
-                    <title />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <pageset name="articles" name_friendly="Articles" view="articles">
             <fields>
@@ -107,32 +59,7 @@
                 <images name="thumbnail" name_friendly="thumbnail" />
                 <date name="publish_date" name_friendly="Publish Date" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Introducing the Zesty Burger" path_part="introducing-the-zesty-burger">
-                    <title />
-                    <content />
-                    <link />
-                    <link />
-                    <thumbnail />
-                    <publish_date />
-                </item>
-                <item link_title="Yet Another Blog Post" path_part="yet-another-blog-post">
-                    <title />
-                    <content />
-                    <link />
-                    <link />
-                    <thumbnail />
-                    <publish_date />
-                </item>
-                <item link_title="Site Template Completed!" path_part="site-template-completed-">
-                    <title />
-                    <content />
-                    <link />
-                    <link />
-                    <thumbnail />
-                    <publish_date />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <templateset name="about" name_friendly="About" view="about">
             <fields>
@@ -143,16 +70,7 @@
                 <text name="link_title" name_friendly="Link Title" required="1" />
                 <link name="link_destination" name_friendly="Link Destination" required="1" />
             </fields>
-            <items><!--
-                <item link_title="About" path_part="about">
-                    <description />
-                    <header />
-                    <deleted1 />
-                    <image />
-                    <link_title />
-                    <link_destination />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <templateset name="events" name_friendly="Events" view="events">
             <fields>
@@ -160,13 +78,7 @@
                 <textarea name="description" name_friendly="description" required="1" />
                 <images name="image" name_friendly="image" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Events" path_part="events">
-                    <title />
-                    <description />
-                    <image />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <pageset name="event_list" name_friendly="Event List" view="event_list">
             <fields>
@@ -176,29 +88,7 @@
                 <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
                 <textarea name="calendar_description" name_friendly="Calendar Description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Something" path_part="something">
-                    <name />
-                    <deleted1 />
-                    <date />
-                    <description />
-                    <calendar_description />
-                </item>
-                <item link_title="New Subevent" path_part="new-subevent">
-                    <name />
-                    <deleted1 />
-                    <date />
-                    <description />
-                    <calendar_description />
-                </item>
-                <item link_title="Pancake Day" path_part="pancake-day">
-                    <name />
-                    <deleted1 />
-                    <date />
-                    <description />
-                    <calendar_description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <templateset name="careers" name_friendly="Careers" view="careers">
             <fields>
@@ -206,19 +96,11 @@
                 <textarea name="description" name_friendly="Page Description" required="1" />
                 <images name="image" name_friendly="image" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Careers" path_part="careers">
-                    <title />
-                    <description />
-                    <image />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <templateset name="locations" name_friendly="Locations" view="locations">
             <fields />
-            <items><!--
-                <item link_title="Locations" path_part="locations" />
-            --></items>
+            <items></items>
         </templateset>
         <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages">
             <fields>
@@ -247,98 +129,14 @@
                 <text name="ded2" name_friendly="dsad" required="1" />
                 <images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
             </fields>
-            <items><!--
-                <item link_title="San Diego" path_part="san-diego">
-                    <city />
-                    <address />
-                    <local_event_list />
-                    <local_careers_list />
-                    <local_menu_items />
-                    <image />
-                    <description />
-                    <landing_link />
-                    <landing_link_text />
-                    <lat />
-                    <lng />
-                    <events_subpage_title />
-                    <events_subpage_description />
-                    <events_subpage_image />
-                    <menu_subpage_title />
-                    <menu_subpage_description />
-                    <ded23 />
-                    <careers_subpage_title />
-                    <careers_subpage_description />
-                    <local_events />
-                    <deleted />
-                    <damn />
-                    <ded2 />
-                    <careers_subpage_image />
-                </item>
-                <item link_title="Las Vegas" path_part="las-vegas">
-                    <city />
-                    <address />
-                    <local_event_list />
-                    <local_careers_list />
-                    <local_menu_items />
-                    <image />
-                    <description />
-                    <landing_link />
-                    <landing_link_text />
-                    <lat />
-                    <lng />
-                    <events_subpage_title />
-                    <events_subpage_description />
-                    <events_subpage_image />
-                    <menu_subpage_title />
-                    <menu_subpage_description />
-                    <ded23 />
-                    <careers_subpage_title />
-                    <careers_subpage_description />
-                    <local_events />
-                    <deleted />
-                    <damn />
-                    <ded2 />
-                    <careers_subpage_image />
-                </item>
-                <item link_title="Washington, DC" path_part="washington--dc">
-                    <city />
-                    <address />
-                    <local_event_list />
-                    <local_careers_list />
-                    <local_menu_items />
-                    <image />
-                    <description />
-                    <landing_link />
-                    <landing_link_text />
-                    <lat />
-                    <lng />
-                    <events_subpage_title />
-                    <events_subpage_description />
-                    <events_subpage_image />
-                    <menu_subpage_title />
-                    <menu_subpage_description />
-                    <ded23 />
-                    <careers_subpage_title />
-                    <careers_subpage_description />
-                    <local_events />
-                    <deleted />
-                    <damn />
-                    <ded2 />
-                    <careers_subpage_image />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <templateset name="menu" name_friendly="Menu" view="menu">
             <fields>
                 <text name="title" name_friendly="Title" required="1" />
                 <textarea name="description" name_friendly="Page description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Menu" path_part="menu">
-                    <title />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </templateset>
         <pageset name="local_events" name_friendly="Local Event List" view="local_events">
             <fields>
@@ -346,33 +144,7 @@
                 <date name="date" name_friendly="Date" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration">
-                    <name />
-                    <date />
-                    <description />
-                </item>
-                <item link_title="Casino Night" path_part="casino-night">
-                    <name />
-                    <date />
-                    <description />
-                </item>
-                <item link_title="vegas event" path_part="vegas-event">
-                    <name />
-                    <date />
-                    <description />
-                </item>
-                <item link_title="End of Summer Fest" path_part="end-of-summer-fest">
-                    <name />
-                    <date />
-                    <description />
-                </item>
-                <item link_title="dfsd" path_part="dfsd">
-                    <name />
-                    <date />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <pageset name="career_list" name_friendly="Career List" view="career_list">
             <fields>
@@ -380,19 +152,11 @@
                 <textarea name="deleted1" name_friendly="DELETED" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Chief Executive Officer" path_part="cook">
-                    <title />
-                    <deleted1 />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations">
             <fields />
-            <items><!--
-                <item link_title="USA Locations" path_part="usa" />
-            --></items>
+            <items></items>
         </templateset>
         <pageset name="foods" name_friendly="Foods" view="food">
             <fields>
@@ -404,53 +168,7 @@
                 <images name="images" name_friendly="images" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="zestyburger" path_part="zestyburger">
-                    <name />
-                    <price />
-                    <vegetarian />
-                    <vegan />
-                    <gluten_free />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Spicy Burger" path_part="spicy-burger">
-                    <name />
-                    <price />
-                    <vegetarian />
-                    <vegan />
-                    <gluten_free />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Bio Burger" path_part="bio-burger">
-                    <name />
-                    <price />
-                    <vegetarian />
-                    <vegan />
-                    <gluten_free />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Lite Burger" path_part="lite-burger">
-                    <name />
-                    <price />
-                    <vegetarian />
-                    <vegan />
-                    <gluten_free />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Temporary Burger" path_part="temporary-burger">
-                    <name />
-                    <price />
-                    <vegetarian />
-                    <vegan />
-                    <gluten_free />
-                    <images />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <pageset name="drinks" name_friendly="Drinks" view="drink">
             <fields>
@@ -460,53 +178,14 @@
                 <images name="images" name_friendly="images" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Yellow" path_part="yellow">
-                    <name />
-                    <price />
-                    <alcoholic />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Orange" path_part="orange">
-                    <name />
-                    <price />
-                    <alcoholic />
-                    <images />
-                    <description />
-                </item>
-                <item link_title="Pink" path_part="pink">
-                    <name />
-                    <price />
-                    <alcoholic />
-                    <images />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers">
             <fields>
                 <text name="title" name_friendly="title" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="description" required="1" />
             </fields>
-            <items><!--
-                <item link_title="Cashier" path_part="job-cashier">
-                    <title />
-                    <description />
-                </item>
-                <item link_title="Dealer" path_part="dealer">
-                    <title />
-                    <description />
-                </item>
-                <item link_title="President" path_part="president">
-                    <title />
-                    <description />
-                </item>
-                <item link_title="dsfsd" path_part="dsfsd">
-                    <title />
-                    <description />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <pageset name="local_menu" name_friendly="Local Menu" view="local_menu">
             <fields>
@@ -519,48 +198,7 @@
                 <text name="deleted1" name_friendly="DELETED" required="1" />
                 <yes_no name="gluten_free" name_friendly="Gluten Free" required="1" />
             </fields>
-            <items><!--
-                <item link_title="California Burrito" path_part="california-burrito">
-                    <name />
-                    <price />
-                    <description />
-                    <images />
-                    <vegan />
-                    <vegetarian />
-                    <deleted1 />
-                    <gluten_free />
-                </item>
-                <item link_title="Vegas Burger Deluxe" path_part="vegas-burger-deluxe">
-                    <name />
-                    <price />
-                    <description />
-                    <images />
-                    <vegan />
-                    <vegetarian />
-                    <deleted1 />
-                    <gluten_free />
-                </item>
-                <item link_title="Big Mac" path_part="big-mac">
-                    <name />
-                    <price />
-                    <description />
-                    <images />
-                    <vegan />
-                    <vegetarian />
-                    <deleted1 />
-                    <gluten_free />
-                </item>
-                <item link_title="f" path_part="f">
-                    <name />
-                    <price />
-                    <description />
-                    <images />
-                    <vegan />
-                    <vegetarian />
-                    <deleted1 />
-                    <gluten_free />
-                </item>
-            --></items>
+            <items></items>
         </pageset>
         <dataset name="footer" name_friendly="Footer">
             <fields>
@@ -570,15 +208,7 @@
                 <text name="right_links_title" name_friendly="Right Links Title" required="1" />
                 <textarea name="left_text_content" name_friendly="Left Text Content" required="1" />
             </fields>
-            <items><!--
-                <item link_title="" path_part="">
-                    <left_text_title />
-                    <middle_left_links_title />
-                    <middle_right_links_title />
-                    <right_links_title />
-                    <left_text_content />
-                </item>
-            --></items>
+            <items></items>
         </dataset>
     </ingredients>
 </plate>
