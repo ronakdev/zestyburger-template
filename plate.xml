@@ -13,7 +13,6 @@
    <clippings>
 		<text name="site_name" name_friendly="Site Name" required="1" />
 		<images name="logo" name_friendly="Site Logo" limit="1" />
-		<text name="footer_text" name_friendly="Footer Text" />
    </clippings>
 
    <ingredients>
@@ -198,7 +197,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <wysiwyg_advanced name="description" name_friendly="description" required="1" />
          </fields>
          <items>
-            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="location_pages">
+            <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration" parent="san-diego">
                <name><![CDATA[Opening Day Celebration]]></name>
                <date><![CDATA[word]]></date>
                <description><![CDATA[We're Opening!!]]></description>
@@ -236,7 +235,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
  
 
 Can be made vegetarian on request.]]></description>
-				<images><![CDATA[https://svc.zesty.io/media-resolver-service/resolve/3-6a217ea-lm5fj/getimage/?w=199&h=200&type=fit]]></images>
+				<images><![CDATA[https://6c706l48.media.zestyio.com/caliburrito.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
 				<vegan><![CDATA[0]]></vegan>
 				<vegetarian><![CDATA[1]]></vegetarian>
 				<gluten_free><![CDATA[0]]></gluten_free>
