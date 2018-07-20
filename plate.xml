@@ -221,7 +221,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             </item>
          </items>
       </pageset>
-      <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations">
+      <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
          <fields />
          <items>
             <item link_title="USA Locations" path_part="usa" />
