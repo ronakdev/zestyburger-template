@@ -26,11 +26,13 @@
             <images name="splash_background" name_friendly="Splash Background" required="1" />
          </fields>
          <items>
-            <splash_title><![CDATA[Eat Zesty]]></splash_title>
-            <splash_description><![CDATA[Come and taste the burger revolution at any of our award winning restaurants worldwide.]]></splash_description>
-            <splash_link><![CDATA[http://burger.zesty.site/locations/]]></splash_link>
-            <splash_link_text><![CDATA[Find a Location Near You]]></splash_link_text>
-            <splash_background><![CDATA[https://6c706l48.media.zestyio.com/bg_3.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></splash_background>
+            <item link_title="Homepage" path_part="zesty_home">
+	            <splash_title><![CDATA[Eat Zesty]]></splash_title>
+	            <splash_description><![CDATA[Come and taste the burger revolution at any of our award winning restaurants worldwide.]]></splash_description>
+	            <splash_link><![CDATA[http://burger.zesty.site/locations/]]></splash_link>
+	            <splash_link_text><![CDATA[Find a Location Near You]]></splash_link_text>
+	            <splash_background><![CDATA[https://6c706l48.media.zestyio.com/bg_3.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></splash_background>
+	        </item>
          </items>
       </templateset>
       <templateset name="blog" name_friendly="Blog" view="blog">
