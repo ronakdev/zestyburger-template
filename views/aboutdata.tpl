@@ -1,0 +1,3 @@
+{
+	"content" : "{{about.random().description}}"
+}

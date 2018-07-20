@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .site-navbar-light.scrolled ul {
+    background: none;
+    border-radius: 0px;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .site-navbar-light.scrolled ul {
+    background: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
