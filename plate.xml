@@ -1,353 +1,584 @@
-<?xml version="1.0"?>
-<plate><head><doctype>html5</doctype><meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js"/><script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js"/><script src="https://use.fontawesome.com/9005b8ab53.js"/><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdpVzvchiUZno_vZsAtM5JwQWNGhMCNgA"/></head><clippings/><ingredients><dataset name="clippings" name_friendly="Clippings"><fields><text name="site_name" name_friendly="Site Name" required="1"/><images name="logo" name_friendly="Site Logo" limit="1"/><text name="footer_text" name_friendly="Footer Text"/></fields><items><item link_title="" path_part=""><site_name>Or Dishes Used</site_name><logo>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</logo><footer_text>Pepper Powdered Cow-horn</footer_text></item></items></dataset><dataset name="widgets" name_friendly="Dashboard Widgets"><fields><text name="type" name_friendly="Type"/><text name="set_zuid" name_friendly="Set ZUID"/><text name="direction" name_friendly="Direction"/><text name="widget_size" name_friendly="Widget Size"/><number name="position" name_friendly="Position"/><text name="header" name_friendly="Header"/><textarea name="data" name_friendly="Data"/></fields><items><item link_title="" path_part=""><type>Other As Or</type><set_zuid>Generally To 30000</set_zuid><direction>And Ground</direction><widget_size>Are Dried Are</widget_size><position>1984</position><header>As (such Asian</header><data>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</data></item><item link_title="" path_part=""><type>Is To Of</type><set_zuid>Herbal As His</set_zuid><direction>Misnomer Supplement Nicholas</direction><widget_size>Are Make And</widget_size><position>1984</position><header>And Cultivar Of</header><data>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</data></item><item link_title="" path_part=""><type>Annuum Is Cultivar</type><set_zuid>When Eaten Green</set_zuid><direction>Vinegar-based Sauce A</direction><widget_size>And And Annuum</widget_size><position>1984</position><header>Generally 50000 Rated</header><data>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</data></item></items></dataset><templateset name="homepage" name_friendly="Homepage" view="homepage"><fields><text name="splash_title" name_friendly="Splash Title" required="1"/><wysiwyg_advanced name="deleted2" name_friendly="DELETED" required="1"/><text name="splash_description" name_friendly="Splash Description" required="1"/><text name="splash_link" name_friendly="Splash Link" required="1"/><text name="splash_link_text" name_friendly="Splash Link Text" required="1"/><images name="splash_background" name_friendly="Splash Background" required="1"/></fields><items><item link_title="Homepage" path_part="zesty_home"><splash_title>It Generally 30000</splash_title><deleted2>&lt;h2&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/h2&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;The Nightshade&lt;/li&gt;
-                &lt;li&gt;(Solanaceae) The&lt;/li&gt;
-                &lt;li&gt;Family Capsicum&lt;/li&gt;
-                &lt;li&gt;Genus Capsicum&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;blockquote&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;</deleted2><splash_description>Is Is Is</splash_description><splash_link>The In Its</splash_link><splash_link_text>Scoville Rated Is</splash_link_text><splash_background>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</splash_background></item></items></templateset><templateset name="blog" name_friendly="Blog" view="blog"><fields><text name="title" name_friendly="Page Title" required="1"/><textarea name="description" name_friendly="Page description" required="1"/></fields><items><item link_title="Blog" path_part="blog"><title>Is Green Also</title><description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</description></item></items></templateset><pageset name="articles" name_friendly="Articles" view="articles"><fields><text name="title" name_friendly="Title" required="1"/><wysiwyg_advanced name="content" name_friendly="Content" required="1"/><link name="link" name_friendly="link" required="1"/><link name="link" name_friendly="link" required="1"/><images name="thumbnail" name_friendly="thumbnail"/><date name="publish_date" name_friendly="Publish Date" required="1"/></fields><items><item link_title="Introducing the Zesty Burger" path_part="introducing-the-zesty-burger"><title>When Is Green</title><content>&lt;h2&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/h2&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;In In&lt;/li&gt;
-                &lt;li&gt;Family In&lt;/li&gt;
-                &lt;li&gt;Nightshade Nightshade&lt;/li&gt;
-                &lt;li&gt;Genus Family&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;
-                &lt;blockquote&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;</content><link>http://gozesty.com</link><link>http://gozesty.com</link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</thumbnail><publish_date>2018-07-20</publish_date></item><item link_title="Yet Another Blog Post" path_part="yet-another-blog-post"><title>Scoville 50000 To</title><content>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Red Bird&lt;/li&gt;
-                &lt;li&gt;Pepper&#x2014;is The&lt;/li&gt;
-                &lt;li&gt;In Powdered&lt;/li&gt;
-                &lt;li&gt;Aleva, Chili&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;</content><link>http://gozesty.com</link><link>http://gozesty.com</link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</thumbnail><publish_date>2018-07-20</publish_date></item><item link_title="Site Template Completed!" path_part="site-template-completed-"><title>The The Are</title><content>&lt;h2&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/h2&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Rated Rated&lt;/li&gt;
-                &lt;li&gt;Scoville Generally&lt;/li&gt;
-                &lt;li&gt;Is At&lt;/li&gt;
-                &lt;li&gt;Generally It&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;</content><link>http://gozesty.com</link><link>http://gozesty.com</link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</thumbnail><publish_date>2018-07-20</publish_date></item></items></pageset><templateset name="about" name_friendly="About" view="about"><fields><wysiwyg_advanced name="description" name_friendly="Description" required="1"/><text name="header" name_friendly="header" required="1"/><text name="deleted1" name_friendly="DELETED1" required="1"/><images name="image" name_friendly="image" required="1"/><text name="link_title" name_friendly="Link Title" required="1"/><link name="link_destination" name_friendly="Link Destination" required="1"/></fields><items><item link_title="About" path_part="about"><description>&lt;h2&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/h2&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;A Is&lt;/li&gt;
-                &lt;li&gt;And To&lt;/li&gt;
-                &lt;li&gt;A And&lt;/li&gt;
-                &lt;li&gt;A It&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;</description><header>Capsicum Cultivar Bell</header><deleted1>Related Peppers Peppers</deleted1><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image><link_title>And In Cooking</link_title><link_destination>http://gozesty.com</link_destination></item></items></templateset><templateset name="events" name_friendly="Events" view="events"><fields><text name="title" name_friendly="Title" required="1"/><textarea name="description" name_friendly="description" required="1"/><images name="image" name_friendly="image" required="1"/></fields><items><item link_title="Events" path_part="events"><title>Is In French</title><description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</description><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image></item></items></templateset><pageset name="event_list" name_friendly="Event List" view="event_list"><fields><text name="name" name_friendly="Name" required="1"/><date name="deleted1" name_friendly="DELETED" required="1"/><datetime name="date" name_friendly="date" required="1"/><wysiwyg_advanced name="description" name_friendly="Description" required="1"/><textarea name="calendar_description" name_friendly="Calendar Description" required="1"/></fields><items><item link_title="Something" path_part="something"><name>The Bird Its</name><deleted1>2018-07-20</deleted1><date/><description>&lt;h2&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/h2&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Cayenne Used&lt;/li&gt;
-                &lt;li&gt;Spicy Or&lt;/li&gt;
-                &lt;li&gt;Or Cuisine),&lt;/li&gt;
-                &lt;li&gt;In Or&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description><calendar_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</calendar_description></item><item link_title="New Subevent" path_part="new-subevent"><name>Also Was Was</name><deleted1>2018-07-20</deleted1><date/><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Its Pepper,[2]&lt;/li&gt;
-                &lt;li&gt;Or, Flavour&lt;/li&gt;
-                &lt;li&gt;Dishes Form,&lt;/li&gt;
-                &lt;li&gt;The A&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;
-                &lt;blockquote&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description><calendar_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</calendar_description></item><item link_title="Pancake Day" path_part="pancake-day"><name>Is Cultivar Is</name><deleted1>2018-07-20</deleted1><date/><description>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;In French&lt;/li&gt;
-                &lt;li&gt;Cayenne Is&lt;/li&gt;
-                &lt;li&gt;Named For&lt;/li&gt;
-                &lt;li&gt;Of For&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;blockquote&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;</description><calendar_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</calendar_description></item></items></pageset><templateset name="careers" name_friendly="Careers" view="careers"><fields><text name="title" name_friendly="Page Title" required="1"/><textarea name="description" name_friendly="Page Description" required="1"/><images name="image" name_friendly="image" required="1"/></fields><items><item link_title="Careers" path_part="careers"><title>French Named Is</title><description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</description><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image></item></items></templateset><templateset name="locations" name_friendly="Locations" view="locations"><fields/><items><item link_title="Locations" path_part="locations"/></items></templateset><pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages"><fields><text name="city" name_friendly="City" required="1"/><text name="address" name_friendly="Address" required="1"/><one_to_many name="local_event_list" name_friendly="Local Events List" required="1"/><one_to_many name="local_careers_list" name_friendly="Local Careers List" required="1"/><one_to_many name="local_menu_items" name_friendly="Local Menu Items" required="1"/><images name="image" name_friendly="image" required="1"/><wysiwyg_advanced name="description" name_friendly="description" required="1"/><link name="landing_link" name_friendly="Landing Link" required="1"/><text name="landing_link_text" name_friendly="Landing Link Text" required="1"/><text name="lat" name_friendly="lat" required="1"/><text name="lng" name_friendly="lng" required="1"/><text name="events_subpage_title" name_friendly="Events Subpage Title" required="1"/><textarea name="events_subpage_description" name_friendly="Events Subpage Description"/><images name="events_subpage_image" name_friendly="Events Subpage Image" required="1"/><text name="menu_subpage_title" name_friendly="Menu Subpage Title" required="1"/><textarea name="menu_subpage_description" name_friendly="Menu Subpage Description" required="1"/><text name="ded23" name_friendly="fgfdgfd" required="1"/><text name="careers_subpage_title" name_friendly="Careers Subpage Title" required="1"/><textarea name="careers_subpage_description" name_friendly="Careers Subpage Description" required="1"/><one_to_one name="local_events" name_friendly="Local Events"/><text name="deleted" name_friendly="ded" required="1"/><text name="damn" name_friendly="damn" required="1"/><text name="ded2" name_friendly="dsad" required="1"/><images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1"/></fields><items><item link_title="San Diego" path_part="san-diego"><city>Used 1653 For</city><address>Family Capsicum The</address><local_event_list>501</local_event_list><local_careers_list>501</local_careers_list><local_menu_items>501</local_menu_items><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image><description>&lt;h2&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/h2&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;At Units&lt;/li&gt;
-                &lt;li&gt;30,000 Scoville&lt;/li&gt;
-                &lt;li&gt;30,000 Scoville&lt;/li&gt;
-                &lt;li&gt;30,000 To&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;blockquote&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is red colored when ripened to maturity, but also eaten while still green&lt;/p&gt;</description><landing_link>http://gozesty.com</landing_link><landing_link_text>Herbal Herbal 'guiana</landing_link_text><lat>While Maturity Is</lat><lng>Capsicum Cultivar Jalape&#xF1;os</lng><events_subpage_title>At Scoville Generally</events_subpage_title><events_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</events_subpage_description><events_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</events_subpage_image><menu_subpage_title>Make Then Generally</menu_subpage_title><menu_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</menu_subpage_description><ded23>Green Is Eaten</ded23><careers_subpage_title>A In In</careers_subpage_title><careers_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</careers_subpage_description><local_events>501</local_events><deleted>A Cow-horn Used</deleted><damn>Capsicum Is Peppers</damn><ded2>Spice Which The</ded2><careers_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</careers_subpage_image></item><item link_title="Las Vegas" path_part="las-vegas"><city>As As Powder</city><address>Pepper'[3] Mentioned Culpeper</address><local_event_list>501</local_event_list><local_careers_list>501</local_careers_list><local_menu_items>501</local_menu_items><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image><description>&lt;h2&gt;It is named for the city of Cayenne in French Guiana&lt;/h2&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Maturity, When&lt;/li&gt;
-                &lt;li&gt;Maturity, But&lt;/li&gt;
-                &lt;li&gt;Is While&lt;/li&gt;
-                &lt;li&gt;To Ripened&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is named for the city of Cayenne in French Guiana&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;</description><landing_link>http://gozesty.com</landing_link><landing_link_text>In Family</landing_link_text><lat>Is Cultivar Bell</lat><lng>The Dishes Its</lng><events_subpage_title>Was As His</events_subpage_title><events_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</events_subpage_description><events_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</events_subpage_image><menu_subpage_title>Pepper&#x2014;also The Powdered</menu_subpage_title><menu_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</menu_subpage_description><ded23>To Is Maturity</ded23><careers_subpage_title>And And Are</careers_subpage_title><careers_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</careers_subpage_description><local_events>501</local_events><deleted>And Annuum Annuum</deleted><damn>It To Red</damn><ded2>Pepper' Is Was</ded2><careers_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</careers_subpage_image></item><item link_title="Washington, DC" path_part="washington--dc"><city>Of Powdered Sifted</city><address>Pepper'[3] An Herbal</address><local_event_list>501</local_event_list><local_careers_list>501</local_careers_list><local_menu_items>501</local_menu_items><image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Jalape&#xF1;os, Of&lt;/li&gt;
-                &lt;li&gt;Cultivar Is&lt;/li&gt;
-                &lt;li&gt;Cultivar Bell&lt;/li&gt;
-                &lt;li&gt;Related Capsicum&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description><landing_link>http://gozesty.com</landing_link><landing_link_text>His Pepper' Also</landing_link_text><lat>Still Still While</lat><lng>To Units At</lng><events_subpage_title>And Dried The</events_subpage_title><events_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</events_subpage_description><events_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</events_subpage_image><menu_subpage_title>A Pepper Cow-horn</menu_subpage_title><menu_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</menu_subpage_description><ded23>Flavour Pepper Or</ded23><careers_subpage_title>Pulped Name Ground</careers_subpage_title><careers_subpage_description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</careers_subpage_description><local_events>501</local_events><deleted>When Eaten Is</deleted><damn>Maturity Still Green</damn><ded2>For City Is</ded2><careers_subpage_image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</careers_subpage_image></item></items></pageset><templateset name="menu" name_friendly="Menu" view="menu"><fields><text name="title" name_friendly="Title" required="1"/><textarea name="description" name_friendly="Page description" required="1"/></fields><items><item link_title="Menu" path_part="menu"><title>It It Of</title><description>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</description></item></items></templateset><pageset name="local_events" name_friendly="Local Event List" view="local_events"><fields><text name="name" name_friendly="Name" required="1"/><date name="date" name_friendly="Date" required="1"/><wysiwyg_advanced name="description" name_friendly="description" required="1"/></fields><items><item link_title="Opening Day Celebration" path_part="event-opening-day-celebration"><name>Scoville To</name><date>2018-07-20</date><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Supplement, Was&lt;/li&gt;
-                &lt;li&gt;Herbal, Culpeper&lt;/li&gt;
-                &lt;li&gt;Misnomer Misnomer&lt;/li&gt;
-                &lt;li&gt;A Complete&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;blockquote&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is red colored when ripened to maturity, but also eaten while still green&lt;/p&gt;</description></item><item link_title="Casino Night" path_part="casino-night"><name>Units To Is</name><date>2018-07-20</date><description>&lt;h2&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/h2&gt;
-                &lt;p&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;In Sichuan&lt;/li&gt;
-                &lt;li&gt;Whole And&lt;/li&gt;
-                &lt;li&gt;Form Powder&lt;/li&gt;
-                &lt;li&gt;Powder Its&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item><item link_title="vegas event" path_part="vegas-event"><name>Of Is Is</name><date>2018-07-20</date><description>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;His 'guiana&lt;/li&gt;
-                &lt;li&gt;Pepper' As&lt;/li&gt;
-                &lt;li&gt;'guinea For&lt;/li&gt;
-                &lt;li&gt;Was For&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;</description></item><item link_title="End of Summer Fest" path_part="end-of-summer-fest"><name>Green Colored Also</name><date>2018-07-20</date><description>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;In Is&lt;/li&gt;
-                &lt;li&gt;As A&lt;/li&gt;
-                &lt;li&gt;As Or&lt;/li&gt;
-                &lt;li&gt;Sauce And&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item><item link_title="dfsd" path_part="dfsd"><name>30000 To Scoville</name><date>2018-07-20</date><description>&lt;h2&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Genus The&lt;/li&gt;
-                &lt;li&gt;Nightshade Family&lt;/li&gt;
-                &lt;li&gt;Capsicum Nightshade&lt;/li&gt;
-                &lt;li&gt;The Family&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;blockquote&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;</description></item></items></pageset><pageset name="career_list" name_friendly="Career List" view="career_list"><fields><text name="title" name_friendly="Title" required="1"/><textarea name="deleted1" name_friendly="DELETED" required="1"/><wysiwyg_advanced name="description" name_friendly="Description" required="1"/></fields><items><item link_title="Chief Executive Officer" path_part="cook"><title>And Paprika Bell</title><deleted1>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</deleted1><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Capsicum Genus&lt;/li&gt;
-                &lt;li&gt;Nightshade Family&lt;/li&gt;
-                &lt;li&gt;Capsicum Genus&lt;/li&gt;
-                &lt;li&gt;Is (Solanaceae)&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;blockquote&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item></items></pageset><templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations"><fields/><items><item link_title="USA Locations" path_part="usa"/></items></templateset><pageset name="foods" name_friendly="Foods" view="food"><fields><text name="name" name_friendly="name" required="1"/><currency name="price" name_friendly="price" required="1"/><yes_no name="vegetarian" name_friendly="vegetarian" required="1"/><yes_no name="vegan" name_friendly="vegan" required="1"/><yes_no name="gluten_free" name_friendly="Gluten Free"/><images name="images" name_friendly="images" required="1"/><wysiwyg_advanced name="description" name_friendly="Description" required="1"/></fields><items><item link_title="zestyburger" path_part="zestyburger"><name>It Also Still</name><price>19.00</price><vegetarian>0</vegetarian><vegan>0</vegan><gluten_free>0</gluten_free><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;An Herbal,&lt;/li&gt;
-                &lt;li&gt;By Pepper'[3]&lt;/li&gt;
-                &lt;li&gt;Mentioned Misnomer&lt;/li&gt;
-                &lt;li&gt;As Also&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;blockquote&gt;It is named for the city of Cayenne in French Guiana&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;</description></item><item link_title="Spicy Burger" path_part="spicy-burger"><name>Korean Is Spicy</name><price>19.00</price><vegetarian>0</vegetarian><vegan>0</vegan><gluten_free>0</gluten_free><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Flavour Used&lt;/li&gt;
-                &lt;li&gt;Known Flavour&lt;/li&gt;
-                &lt;li&gt;Form, Cayenne&lt;/li&gt;
-                &lt;li&gt;Red Guinea&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item><item link_title="Bio Burger" path_part="bio-burger"><name>Pepper&#x2014;is In Guinea</name><price>19.00</price><vegetarian>0</vegetarian><vegan>0</vegan><gluten_free>0</gluten_free><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/h2&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;And Cultivar&lt;/li&gt;
-                &lt;li&gt;Annuum Is&lt;/li&gt;
-                &lt;li&gt;Others Annuum&lt;/li&gt;
-                &lt;li&gt;Is To&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item><item link_title="Lite Burger" path_part="lite-burger"><name>The Nightshade The</name><price>19.00</price><vegetarian>0</vegetarian><vegan>0</vegan><gluten_free>0</gluten_free><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/h2&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Used Its&lt;/li&gt;
-                &lt;li&gt;To Or,&lt;/li&gt;
-                &lt;li&gt;Pepper Guinea&lt;/li&gt;
-                &lt;li&gt;As Pepper,&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;blockquote&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description></item><item link_title="Temporary Burger" path_part="temporary-burger"><name>Capsicum Cultivar Capsicum</name><price>19.00</price><vegetarian>0</vegetarian><vegan>0</vegan><gluten_free>0</gluten_free><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;'guinea And&lt;/li&gt;
-                &lt;li&gt;Mentioned Supplement,&lt;/li&gt;
-                &lt;li&gt;Was Nicholas&lt;/li&gt;
-                &lt;li&gt;And His&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description></item></items></pageset><pageset name="drinks" name_friendly="Drinks" view="drink"><fields><text name="name" name_friendly="name" required="1"/><currency name="price" name_friendly="price" required="1"/><yes_no name="alcoholic" name_friendly="Alcoholic" required="1"/><images name="images" name_friendly="images" required="1"/><wysiwyg_advanced name="description" name_friendly="Description" required="1"/></fields><items><item link_title="Yellow" path_part="yellow"><name>50000 50000</name><price>19.00</price><alcoholic>0</alcoholic><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/h2&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;It At&lt;/li&gt;
-                &lt;li&gt;50,000 To&lt;/li&gt;
-                &lt;li&gt;50,000 Rated&lt;/li&gt;
-                &lt;li&gt;To To&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;
-                &lt;blockquote&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;</description></item><item link_title="Orange" path_part="orange"><name>Is Herbal Was</name><price>19.00</price><alcoholic>0</alcoholic><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/h2&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;To To&lt;/li&gt;
-                &lt;li&gt;Is 30,000&lt;/li&gt;
-                &lt;li&gt;To Units&lt;/li&gt;
-                &lt;li&gt;Units At&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;blockquote&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description></item><item link_title="Pink" path_part="pink"><name>The Is Is</name><price>19.00</price><alcoholic>0</alcoholic><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><description>&lt;h2&gt;It is named for the city of Cayenne in French Guiana&lt;/h2&gt;
-                &lt;p&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Is The&lt;/li&gt;
-                &lt;li&gt;Nightshade Nightshade&lt;/li&gt;
-                &lt;li&gt;The Nightshade&lt;/li&gt;
-                &lt;li&gt;The Family&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;blockquote&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description></item></items></pageset><pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers"><fields><text name="title" name_friendly="title" required="1"/><wysiwyg_advanced name="description" name_friendly="description" required="1"/></fields><items><item link_title="Cashier" path_part="job-cashier"><title>Red It Still</title><description>&lt;h2&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/h2&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Red Also&lt;/li&gt;
-                &lt;li&gt;While But&lt;/li&gt;
-                &lt;li&gt;Is It&lt;/li&gt;
-                &lt;li&gt;Eaten While&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;
-                &lt;blockquote&gt;It is named for the city of Cayenne in French Guiana&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;</description></item><item link_title="Dealer" path_part="dealer"><title>Bell Bell Others</title><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;The The&lt;/li&gt;
-                &lt;li&gt;Family The&lt;/li&gt;
-                &lt;li&gt;The Is&lt;/li&gt;
-                &lt;li&gt;Family Genus&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;
-                &lt;blockquote&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;</description></item><item link_title="President" path_part="president"><title>(Solanaceae) The Capsicum</title><description>&lt;h2&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/h2&gt;
-                &lt;p&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Scoville Units&lt;/li&gt;
-                &lt;li&gt;It To&lt;/li&gt;
-                &lt;li&gt;At Rated&lt;/li&gt;
-                &lt;li&gt;Units It&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt;
-                &lt;blockquote&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description></item><item link_title="dsfsd" path_part="dsfsd"><title>Family In In</title><description>&lt;h2&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/h2&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Name The&lt;/li&gt;
-                &lt;li&gt;Powdered Baked&lt;/li&gt;
-                &lt;li&gt;Sifted Ground,&lt;/li&gt;
-                &lt;li&gt;Powdered And&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;
-                &lt;blockquote&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description></item></items></pageset><pageset name="local_menu" name_friendly="Local Menu" view="local_menu"><fields><text name="name" name_friendly="name" required="1"/><currency name="price" name_friendly="price" required="1"/><wysiwyg_advanced name="description" name_friendly="description" required="1"/><images name="images" name_friendly="images" required="1"/><yes_no name="vegan" name_friendly="vegan" required="1"/><yes_no name="vegetarian" name_friendly="vegetarian" required="1"/><text name="deleted1" name_friendly="DELETED" required="1"/><yes_no name="gluten_free" name_friendly="Gluten Free" required="1"/></fields><items><item link_title="California Burrito" path_part="california-burrito"><name>Used Supplement Pepper'</name><price>19.00</price><description>&lt;h2&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/h2&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;For Culpeper&lt;/li&gt;
-                &lt;li&gt;Nicholas 'guinea&lt;/li&gt;
-                &lt;li&gt;'guiana Misnomer&lt;/li&gt;
-                &lt;li&gt;In Culpeper&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><vegan>0</vegan><vegetarian>0</vegetarian><deleted1>Are Baked The</deleted1><gluten_free>0</gluten_free></item><item link_title="Vegas Burger Deluxe" path_part="vegas-burger-deluxe"><name>Red Guinea Especially</name><price>19.00</price><description>&lt;h2&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/h2&gt;
-                &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;Related Peppers,&lt;/li&gt;
-                &lt;li&gt;It Others&lt;/li&gt;
-                &lt;li&gt;To Related&lt;/li&gt;
-                &lt;li&gt;Annuum Of&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is generally rated at 30,000 to 50,000 Scoville units&lt;/p&gt;</description><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><vegan>0</vegan><vegetarian>0</vegetarian><deleted1>Whole Cooking Its</deleted1><gluten_free>0</gluten_free></item><item link_title="Big Mac" path_part="big-mac"><name>Or Cayenne</name><price>19.00</price><description>&lt;h2&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/h2&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;In As&lt;/li&gt;
-                &lt;li&gt;Is Sauce&lt;/li&gt;
-                &lt;li&gt;Is Asian&lt;/li&gt;
-                &lt;li&gt;Sauce Is&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;blockquote&gt;It is named for the city of Cayenne in French Guiana&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersIt is named for the city of Cayenne in French Guiana&lt;/p&gt;</description><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><vegan>0</vegan><vegetarian>0</vegetarian><deleted1>(Solanaceae) In In</deleted1><gluten_free>0</gluten_free></item><item link_title="f" path_part="f"><name>Complete Pepper' It</name><price>19.00</price><description>&lt;h2&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/h2&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                &lt;ul&gt;
-                &lt;li&gt;To 50,000&lt;/li&gt;
-                &lt;li&gt;30,000 Units&lt;/li&gt;
-                &lt;li&gt;Is It&lt;/li&gt;
-                &lt;li&gt;Units Is&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;
-                &lt;blockquote&gt;Cayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/blockquote&gt;
-                &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishes&lt;/p&gt;</description><images>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</images><vegan>0</vegan><vegetarian>0</vegetarian><deleted1>Korean (such (such</deleted1><gluten_free>0</gluten_free></item></items></pageset><dataset name="footer" name_friendly="Footer"><fields><text name="left_text_title" name_friendly="Left Text Title" required="1"/><text name="middle_left_links_title" name_friendly="Middle Left Links Title" required="1"/><text name="middle_right_links_title" name_friendly="Middle Right Links Title" required="1"/><text name="right_links_title" name_friendly="Right Links Title" required="1"/><textarea name="left_text_content" name_friendly="Left Text Content" required="1"/></fields><items><item link_title="" path_part=""><left_text_title>(Solanaceae) In</left_text_title><middle_left_links_title>Is Units Units</middle_left_links_title><middle_right_links_title>In Guiana French</middle_right_links_title><right_links_title>Nightshade Genus Genus</right_links_title><left_text_content>The cayenne pepper&#x2014;also known as the Guinea spice,[1] cow-horn pepper, aleva, bird pepper,[2] or, especially in its powdered form, red pepper&#x2014;is a hot chili pepper used to flavour dishesIt is red colored when ripened to maturity, but also eaten while still green
-It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)</left_text_content></item></items></dataset></ingredients></plate>
+<?xml version="1.0" encoding="UTF-8"?>
+<plate>
+    <head>
+        <doctype />
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js" />
+        <script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js" />
+        <script src="https://use.fontawesome.com/9005b8ab53.js" />
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdpVzvchiUZno_vZsAtM5JwQWNGhMCNgA" />
+    </head>
+    <clippings />
+    <ingredients>
+        <dataset name="clippings" name_friendly="Clippings">
+            <fields>
+                <text name="site_name" name_friendly="Site Name" required="1" />
+                <images name="logo" name_friendly="Site Logo" limit="1" />
+                <text name="footer_text" name_friendly="Footer Text" />
+            </fields>
+            <items><!--
+                <item link_title="" path_part="">
+                    <site_name />
+                    <logo />
+                    <footer_text />
+                </item>
+            --></items>
+        </dataset>
+        <dataset name="widgets" name_friendly="Dashboard Widgets">
+            <fields>
+                <text name="type" name_friendly="Type" />
+                <text name="set_zuid" name_friendly="Set ZUID" />
+                <text name="direction" name_friendly="Direction" />
+                <text name="widget_size" name_friendly="Widget Size" />
+                <number name="position" name_friendly="Position" />
+                <text name="header" name_friendly="Header" />
+                <textarea name="data" name_friendly="Data" />
+            </fields>
+            <items><!--
+                <item link_title="" path_part="">
+                    <type />
+                    <set_zuid />
+                    <direction />
+                    <widget_size />
+                    <position />
+                    <header />
+                    <data />
+                </item>
+                <item link_title="" path_part="">
+                    <type />
+                    <set_zuid />
+                    <direction />
+                    <widget_size />
+                    <position />
+                    <header />
+                    <data />
+                </item>
+                <item link_title="" path_part="">
+                    <type />
+                    <set_zuid />
+                    <direction />
+                    <widget_size />
+                    <position />
+                    <header />
+                    <data />
+                </item>
+            --></items>
+        </dataset>
+        <templateset name="homepage" name_friendly="Homepage" view="homepage">
+            <fields>
+                <text name="splash_title" name_friendly="Splash Title" required="1" />
+                <wysiwyg_advanced name="deleted2" name_friendly="DELETED" required="1" />
+                <text name="splash_description" name_friendly="Splash Description" required="1" />
+                <text name="splash_link" name_friendly="Splash Link" required="1" />
+                <text name="splash_link_text" name_friendly="Splash Link Text" required="1" />
+                <images name="splash_background" name_friendly="Splash Background" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Homepage" path_part="zesty_home">
+                    <splash_title />
+                    <deleted2 />
+                    <splash_description />
+                    <splash_link />
+                    <splash_link_text />
+                    <splash_background />
+                </item>
+            --></items>
+        </templateset>
+        <templateset name="blog" name_friendly="Blog" view="blog">
+            <fields>
+                <text name="title" name_friendly="Page Title" required="1" />
+                <textarea name="description" name_friendly="Page description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Blog" path_part="blog">
+                    <title />
+                    <description />
+                </item>
+            --></items>
+        </templateset>
+        <pageset name="articles" name_friendly="Articles" view="articles">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <wysiwyg_advanced name="content" name_friendly="Content" required="1" />
+                <link name="link" name_friendly="link" required="1" />
+                <link name="link" name_friendly="link" required="1" />
+                <images name="thumbnail" name_friendly="thumbnail" />
+                <date name="publish_date" name_friendly="Publish Date" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Introducing the Zesty Burger" path_part="introducing-the-zesty-burger">
+                    <title />
+                    <content />
+                    <link />
+                    <link />
+                    <thumbnail />
+                    <publish_date />
+                </item>
+                <item link_title="Yet Another Blog Post" path_part="yet-another-blog-post">
+                    <title />
+                    <content />
+                    <link />
+                    <link />
+                    <thumbnail />
+                    <publish_date />
+                </item>
+                <item link_title="Site Template Completed!" path_part="site-template-completed-">
+                    <title />
+                    <content />
+                    <link />
+                    <link />
+                    <thumbnail />
+                    <publish_date />
+                </item>
+            --></items>
+        </pageset>
+        <templateset name="about" name_friendly="About" view="about">
+            <fields>
+                <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+                <text name="header" name_friendly="header" required="1" />
+                <text name="deleted1" name_friendly="DELETED1" required="1" />
+                <images name="image" name_friendly="image" required="1" />
+                <text name="link_title" name_friendly="Link Title" required="1" />
+                <link name="link_destination" name_friendly="Link Destination" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="About" path_part="about">
+                    <description />
+                    <header />
+                    <deleted1 />
+                    <image />
+                    <link_title />
+                    <link_destination />
+                </item>
+            --></items>
+        </templateset>
+        <templateset name="events" name_friendly="Events" view="events">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <textarea name="description" name_friendly="description" required="1" />
+                <images name="image" name_friendly="image" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Events" path_part="events">
+                    <title />
+                    <description />
+                    <image />
+                </item>
+            --></items>
+        </templateset>
+        <pageset name="event_list" name_friendly="Event List" view="event_list">
+            <fields>
+                <text name="name" name_friendly="Name" required="1" />
+                <date name="deleted1" name_friendly="DELETED" required="1" />
+                <datetime name="date" name_friendly="date" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+                <textarea name="calendar_description" name_friendly="Calendar Description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Something" path_part="something">
+                    <name />
+                    <deleted1 />
+                    <date />
+                    <description />
+                    <calendar_description />
+                </item>
+                <item link_title="New Subevent" path_part="new-subevent">
+                    <name />
+                    <deleted1 />
+                    <date />
+                    <description />
+                    <calendar_description />
+                </item>
+                <item link_title="Pancake Day" path_part="pancake-day">
+                    <name />
+                    <deleted1 />
+                    <date />
+                    <description />
+                    <calendar_description />
+                </item>
+            --></items>
+        </pageset>
+        <templateset name="careers" name_friendly="Careers" view="careers">
+            <fields>
+                <text name="title" name_friendly="Page Title" required="1" />
+                <textarea name="description" name_friendly="Page Description" required="1" />
+                <images name="image" name_friendly="image" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Careers" path_part="careers">
+                    <title />
+                    <description />
+                    <image />
+                </item>
+            --></items>
+        </templateset>
+        <templateset name="locations" name_friendly="Locations" view="locations">
+            <fields />
+            <items><!--
+                <item link_title="Locations" path_part="locations" />
+            --></items>
+        </templateset>
+        <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages">
+            <fields>
+                <text name="city" name_friendly="City" required="1" />
+                <text name="address" name_friendly="Address" required="1" />
+                <one_to_many name="local_event_list" name_friendly="Local Events List" required="1" />
+                <one_to_many name="local_careers_list" name_friendly="Local Careers List" required="1" />
+                <one_to_many name="local_menu_items" name_friendly="Local Menu Items" required="1" />
+                <images name="image" name_friendly="image" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="description" required="1" />
+                <link name="landing_link" name_friendly="Landing Link" required="1" />
+                <text name="landing_link_text" name_friendly="Landing Link Text" required="1" />
+                <text name="lat" name_friendly="lat" required="1" />
+                <text name="lng" name_friendly="lng" required="1" />
+                <text name="events_subpage_title" name_friendly="Events Subpage Title" required="1" />
+                <textarea name="events_subpage_description" name_friendly="Events Subpage Description" />
+                <images name="events_subpage_image" name_friendly="Events Subpage Image" required="1" />
+                <text name="menu_subpage_title" name_friendly="Menu Subpage Title" required="1" />
+                <textarea name="menu_subpage_description" name_friendly="Menu Subpage Description" required="1" />
+                <text name="ded23" name_friendly="fgfdgfd" required="1" />
+                <text name="careers_subpage_title" name_friendly="Careers Subpage Title" required="1" />
+                <textarea name="careers_subpage_description" name_friendly="Careers Subpage Description" required="1" />
+                <one_to_one name="local_events" name_friendly="Local Events" />
+                <text name="deleted" name_friendly="ded" required="1" />
+                <text name="damn" name_friendly="damn" required="1" />
+                <text name="ded2" name_friendly="dsad" required="1" />
+                <images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="San Diego" path_part="san-diego">
+                    <city />
+                    <address />
+                    <local_event_list />
+                    <local_careers_list />
+                    <local_menu_items />
+                    <image />
+                    <description />
+                    <landing_link />
+                    <landing_link_text />
+                    <lat />
+                    <lng />
+                    <events_subpage_title />
+                    <events_subpage_description />
+                    <events_subpage_image />
+                    <menu_subpage_title />
+                    <menu_subpage_description />
+                    <ded23 />
+                    <careers_subpage_title />
+                    <careers_subpage_description />
+                    <local_events />
+                    <deleted />
+                    <damn />
+                    <ded2 />
+                    <careers_subpage_image />
+                </item>
+                <item link_title="Las Vegas" path_part="las-vegas">
+                    <city />
+                    <address />
+                    <local_event_list />
+                    <local_careers_list />
+                    <local_menu_items />
+                    <image />
+                    <description />
+                    <landing_link />
+                    <landing_link_text />
+                    <lat />
+                    <lng />
+                    <events_subpage_title />
+                    <events_subpage_description />
+                    <events_subpage_image />
+                    <menu_subpage_title />
+                    <menu_subpage_description />
+                    <ded23 />
+                    <careers_subpage_title />
+                    <careers_subpage_description />
+                    <local_events />
+                    <deleted />
+                    <damn />
+                    <ded2 />
+                    <careers_subpage_image />
+                </item>
+                <item link_title="Washington, DC" path_part="washington--dc">
+                    <city />
+                    <address />
+                    <local_event_list />
+                    <local_careers_list />
+                    <local_menu_items />
+                    <image />
+                    <description />
+                    <landing_link />
+                    <landing_link_text />
+                    <lat />
+                    <lng />
+                    <events_subpage_title />
+                    <events_subpage_description />
+                    <events_subpage_image />
+                    <menu_subpage_title />
+                    <menu_subpage_description />
+                    <ded23 />
+                    <careers_subpage_title />
+                    <careers_subpage_description />
+                    <local_events />
+                    <deleted />
+                    <damn />
+                    <ded2 />
+                    <careers_subpage_image />
+                </item>
+            --></items>
+        </pageset>
+        <templateset name="menu" name_friendly="Menu" view="menu">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <textarea name="description" name_friendly="Page description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Menu" path_part="menu">
+                    <title />
+                    <description />
+                </item>
+            --></items>
+        </templateset>
+        <pageset name="local_events" name_friendly="Local Event List" view="local_events">
+            <fields>
+                <text name="name" name_friendly="Name" required="1" />
+                <date name="date" name_friendly="Date" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Opening Day Celebration" path_part="event-opening-day-celebration">
+                    <name />
+                    <date />
+                    <description />
+                </item>
+                <item link_title="Casino Night" path_part="casino-night">
+                    <name />
+                    <date />
+                    <description />
+                </item>
+                <item link_title="vegas event" path_part="vegas-event">
+                    <name />
+                    <date />
+                    <description />
+                </item>
+                <item link_title="End of Summer Fest" path_part="end-of-summer-fest">
+                    <name />
+                    <date />
+                    <description />
+                </item>
+                <item link_title="dfsd" path_part="dfsd">
+                    <name />
+                    <date />
+                    <description />
+                </item>
+            --></items>
+        </pageset>
+        <pageset name="career_list" name_friendly="Career List" view="career_list">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <textarea name="deleted1" name_friendly="DELETED" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Chief Executive Officer" path_part="cook">
+                    <title />
+                    <deleted1 />
+                    <description />
+                </item>
+            --></items>
+        </pageset>
+        <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations">
+            <fields />
+            <items><!--
+                <item link_title="USA Locations" path_part="usa" />
+            --></items>
+        </templateset>
+        <pageset name="foods" name_friendly="Foods" view="food">
+            <fields>
+                <text name="name" name_friendly="name" required="1" />
+                <currency name="price" name_friendly="price" required="1" />
+                <yes_no name="vegetarian" name_friendly="vegetarian" required="1" />
+                <yes_no name="vegan" name_friendly="vegan" required="1" />
+                <yes_no name="gluten_free" name_friendly="Gluten Free" />
+                <images name="images" name_friendly="images" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="zestyburger" path_part="zestyburger">
+                    <name />
+                    <price />
+                    <vegetarian />
+                    <vegan />
+                    <gluten_free />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Spicy Burger" path_part="spicy-burger">
+                    <name />
+                    <price />
+                    <vegetarian />
+                    <vegan />
+                    <gluten_free />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Bio Burger" path_part="bio-burger">
+                    <name />
+                    <price />
+                    <vegetarian />
+                    <vegan />
+                    <gluten_free />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Lite Burger" path_part="lite-burger">
+                    <name />
+                    <price />
+                    <vegetarian />
+                    <vegan />
+                    <gluten_free />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Temporary Burger" path_part="temporary-burger">
+                    <name />
+                    <price />
+                    <vegetarian />
+                    <vegan />
+                    <gluten_free />
+                    <images />
+                    <description />
+                </item>
+            --></items>
+        </pageset>
+        <pageset name="drinks" name_friendly="Drinks" view="drink">
+            <fields>
+                <text name="name" name_friendly="name" required="1" />
+                <currency name="price" name_friendly="price" required="1" />
+                <yes_no name="alcoholic" name_friendly="Alcoholic" required="1" />
+                <images name="images" name_friendly="images" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Yellow" path_part="yellow">
+                    <name />
+                    <price />
+                    <alcoholic />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Orange" path_part="orange">
+                    <name />
+                    <price />
+                    <alcoholic />
+                    <images />
+                    <description />
+                </item>
+                <item link_title="Pink" path_part="pink">
+                    <name />
+                    <price />
+                    <alcoholic />
+                    <images />
+                    <description />
+                </item>
+            --></items>
+        </pageset>
+        <pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers">
+            <fields>
+                <text name="title" name_friendly="title" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="description" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="Cashier" path_part="job-cashier">
+                    <title />
+                    <description />
+                </item>
+                <item link_title="Dealer" path_part="dealer">
+                    <title />
+                    <description />
+                </item>
+                <item link_title="President" path_part="president">
+                    <title />
+                    <description />
+                </item>
+                <item link_title="dsfsd" path_part="dsfsd">
+                    <title />
+                    <description />
+                </item>
+            --></items>
+        </pageset>
+        <pageset name="local_menu" name_friendly="Local Menu" view="local_menu">
+            <fields>
+                <text name="name" name_friendly="name" required="1" />
+                <currency name="price" name_friendly="price" required="1" />
+                <wysiwyg_advanced name="description" name_friendly="description" required="1" />
+                <images name="images" name_friendly="images" required="1" />
+                <yes_no name="vegan" name_friendly="vegan" required="1" />
+                <yes_no name="vegetarian" name_friendly="vegetarian" required="1" />
+                <text name="deleted1" name_friendly="DELETED" required="1" />
+                <yes_no name="gluten_free" name_friendly="Gluten Free" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="California Burrito" path_part="california-burrito">
+                    <name />
+                    <price />
+                    <description />
+                    <images />
+                    <vegan />
+                    <vegetarian />
+                    <deleted1 />
+                    <gluten_free />
+                </item>
+                <item link_title="Vegas Burger Deluxe" path_part="vegas-burger-deluxe">
+                    <name />
+                    <price />
+                    <description />
+                    <images />
+                    <vegan />
+                    <vegetarian />
+                    <deleted1 />
+                    <gluten_free />
+                </item>
+                <item link_title="Big Mac" path_part="big-mac">
+                    <name />
+                    <price />
+                    <description />
+                    <images />
+                    <vegan />
+                    <vegetarian />
+                    <deleted1 />
+                    <gluten_free />
+                </item>
+                <item link_title="f" path_part="f">
+                    <name />
+                    <price />
+                    <description />
+                    <images />
+                    <vegan />
+                    <vegetarian />
+                    <deleted1 />
+                    <gluten_free />
+                </item>
+            --></items>
+        </pageset>
+        <dataset name="footer" name_friendly="Footer">
+            <fields>
+                <text name="left_text_title" name_friendly="Left Text Title" required="1" />
+                <text name="middle_left_links_title" name_friendly="Middle Left Links Title" required="1" />
+                <text name="middle_right_links_title" name_friendly="Middle Right Links Title" required="1" />
+                <text name="right_links_title" name_friendly="Right Links Title" required="1" />
+                <textarea name="left_text_content" name_friendly="Left Text Content" required="1" />
+            </fields>
+            <items><!--
+                <item link_title="" path_part="">
+                    <left_text_title />
+                    <middle_left_links_title />
+                    <middle_right_links_title />
+                    <right_links_title />
+                    <left_text_content />
+                </item>
+            --></items>
+        </dataset>
+    </ingredients>
+</plate>
