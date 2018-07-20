@@ -137,7 +137,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <item link_title="Locations" path_part="locations" />
          </items>
       </templateset>
-      <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages" parent_item="locations">
+      <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages" parent_item="usa_locations">
          <fields>
             <text name="city" name_friendly="City" required="1" />
             <text name="address" name_friendly="Address" required="1" />
@@ -161,7 +161,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
             <images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
          </fields>
          <items>
-            <item link_title="San Diego" path_part="san-diego" parent="locations">
+            <item link_title="San Diego" path_part="san-diego" parent="usa_locations">
                <city><![CDATA[San Diego]]></city>
                <address><![CDATA[2018-07-20 11:32:29]]></address>
                <local_event_list></local_event_list>
@@ -226,7 +226,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
       <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
          <fields />
          <items>
-            <item link_title="USA Locations" path_part="usa"/>
+            <item link_title="USA Locations" path_part="usa" parent="locations"/>
          </items>
       </templateset>
       <pageset name="foods" name_friendly="Foods" view="food" parent_item="menu">
