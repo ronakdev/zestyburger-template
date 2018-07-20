@@ -15,7 +15,7 @@
 		<images name="logo" name_friendly="Site Logo" limit="1" />
 		<text name="footer_text" name_friendly="Footer Text" />
    </clippings>
-   
+
    <ingredients>
       <templateset name="homepage" name_friendly="Homepage" view="homepage">
          <fields>
