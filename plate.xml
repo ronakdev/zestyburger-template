@@ -50,7 +50,7 @@
             </fields>
             <items></items>
         </templateset>
-        <pageset name="articles" name_friendly="Articles" view="articles">
+        <pageset name="articles" name_friendly="Articles" view="articles" parent_item="blog">
             <fields>
                 <text name="title" name_friendly="Title" required="1" />
                 <wysiwyg_advanced name="content" name_friendly="Content" required="1" />
@@ -80,7 +80,7 @@
             </fields>
             <items></items>
         </templateset>
-        <pageset name="event_list" name_friendly="Event List" view="event_list">
+        <pageset name="event_list" name_friendly="Event List" view="event_list" parent_item="events">
             <fields>
                 <text name="name" name_friendly="Name" required="1" />
                 <date name="deleted1" name_friendly="DELETED" required="1" />
@@ -102,7 +102,7 @@
             <fields />
             <items></items>
         </templateset>
-        <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages">
+        <pageset name="location_pages" name_friendly="USA Location Pages" view="location_pages" parent_item="usa_locations">
             <fields>
                 <text name="city" name_friendly="City" required="1" />
                 <text name="address" name_friendly="Address" required="1" />
@@ -138,7 +138,7 @@
             </fields>
             <items></items>
         </templateset>
-        <pageset name="local_events" name_friendly="Local Event List" view="local_events">
+        <pageset name="local_events" name_friendly="Local Event List" view="local_events" parent_item="location_pages">
             <fields>
                 <text name="name" name_friendly="Name" required="1" />
                 <date name="date" name_friendly="Date" required="1" />
@@ -146,7 +146,7 @@
             </fields>
             <items></items>
         </pageset>
-        <pageset name="career_list" name_friendly="Career List" view="career_list">
+        <pageset name="career_list" name_friendly="Career List" view="career_list" parent_item="careers">
             <fields>
                 <text name="title" name_friendly="Title" required="1" />
                 <textarea name="deleted1" name_friendly="DELETED" required="1" />
@@ -158,7 +158,7 @@
             <fields />
             <items></items>
         </templateset>
-        <pageset name="foods" name_friendly="Foods" view="food">
+        <pageset name="foods" name_friendly="Foods" view="food" parent_item="menu">
             <fields>
                 <text name="name" name_friendly="name" required="1" />
                 <currency name="price" name_friendly="price" required="1" />
@@ -170,7 +170,7 @@
             </fields>
             <items></items>
         </pageset>
-        <pageset name="drinks" name_friendly="Drinks" view="drink">
+        <pageset name="drinks" name_friendly="Drinks" view="drink" parent_item="menu">
             <fields>
                 <text name="name" name_friendly="name" required="1" />
                 <currency name="price" name_friendly="price" required="1" />
@@ -180,14 +180,14 @@
             </fields>
             <items></items>
         </pageset>
-        <pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers">
+        <pageset name="local_careers_list" name_friendly="Local Career List" view="local_careers" parent_item="location_pages">
             <fields>
                 <text name="title" name_friendly="title" required="1" />
                 <wysiwyg_advanced name="description" name_friendly="description" required="1" />
             </fields>
             <items></items>
         </pageset>
-        <pageset name="local_menu" name_friendly="Local Menu" view="local_menu">
+        <pageset name="local_menu" name_friendly="Local Menu" view="local_menu" parent_item="location_pages">
             <fields>
                 <text name="name" name_friendly="name" required="1" />
                 <currency name="price" name_friendly="price" required="1" />
