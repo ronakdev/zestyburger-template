@@ -24,29 +24,17 @@
 			  <h2 class="site-primary-title display-4">{{page.city}}</h2>
 			  <p>{{page.description}}</p>
 			  <p><a href="{{page.landing_link}}" class="btn btn-secondary btn-lg">{{page.landing_link_text}}</a></p>
+			  <p><i class="fa fa-map-marker"></i> {{page.address}}<br>
+				  <i class="fa fa-phone"></i> {{page.phone_number}}</p>
+
+
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6 site-animate img" data-animate-effect="fadeInRight">
 
-					  <div id="map"></div>
-			<script>
-			  var geocoder;
-			  var map;
-				var address = "{{page.address}}";
-			  function initMap() {
-				  var pos = {lat: {{page.lat}}, lng: {{page.lng}} }
-				  
-				var map = new google.maps.Map(document.getElementById('map'), {
-				  zoom: 19,
-					center: pos
-				});
-				  var marker = new google.maps.Marker({position: pos, map: map})
-				  
-			  }
-		
-			initMap()
-
-			</script>
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.47291745273!2d{{page.lng}}!3d{{page.lat}}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQzJzM1LjkiTiAxMTfCsDA5JzUwLjgiVw!5e0!3m2!1sen!2sus!4v1532388586155" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ <br />
+ 
 			
 			</div>
         </div>
