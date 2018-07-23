@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 text-center mb-5 site-animate">
                 <h4 class="site-sub-title">Our Locations</h4>
-                <h2 class="display-4">10 Locations. Infinite Zest.</h2>
+                <h2 class="display-4">{{each location_pages as loc}} {{ if {loc._index} = 0 }} {{loc._length}}{{end-if}}{{end-each}} Locations. Infinite Zest.</h2>
                 <div class="row justify-content-center">
                     <div class="col-md-7">
                         <p class="lead">Find the location nearest to you today. Don't see one near you? <a href="mailto:support@burger.zesty.site">Request one today</a></p>
