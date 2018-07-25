@@ -24,30 +24,36 @@
 			  <h2 class="site-primary-title display-4">{{page.city}}</h2>
 			  <p>{{page.description}}</p>
 			  <p><a href="{{page.landing_link}}" class="btn btn-secondary btn-lg">{{page.landing_link_text}}</a></p>
+			  <p><i class="fa fa-map-marker"></i> {{page.address}}<br>
+				  <i class="fa fa-phone"></i> {{page.phone_number}}</p>
+
+
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6 site-animate img" data-animate-effect="fadeInRight">
-<div id="map"></div>
-        <p>You can enable this feature by getting a <a href="https://cloud.google.com/maps-platform/?__utma=102347093.1732108420.1531515768.1532390950.1532390950.1&__utmb=102347093.0.10.1532390950&__utmc=102347093&__utmx=-&__utmz=102347093.1532390950.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=132917390&_ga=2.53216360.1183605615.1532387897-1732108420.1531515768#get-started">Google Maps Key</a> and putting it in your Content Clippings</p>
-      <script>
-        var geocoder;
-        var map;
-        var address = "{{page.address}}";
-        function initMap() {
-          var pos = {lat: {{page.lat}}, lng: {{page.lng}} }
-          
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 19,
-          center: pos
-        });
-          var marker = new google.maps.Marker({position: pos, map: map})
-          
-        }
-    
-      initMap()
-      </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key={{clippings.googlemapskey}}&callback=initMap"
+ <div id="map"></div>
+			  <p>You can enable this feature by getting a <a href="https://cloud.google.com/maps-platform/?__utma=102347093.1732108420.1531515768.1532390950.1532390950.1&__utmb=102347093.0.10.1532390950&__utmc=102347093&__utmx=-&__utmz=102347093.1532390950.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=132917390&_ga=2.53216360.1183605615.1532387897-1732108420.1531515768#get-started">Google Maps Key</a> and putting it in your Content Clippings</p>
+			<script>
+			  var geocoder;
+			  var map;
+				var address = "{{page.address}}";
+			  function initMap() {
+				  var pos = {lat: {{page.lat}}, lng: {{page.lng}} }
+				  
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 19,
+					center: pos
+				});
+				  var marker = new google.maps.Marker({position: pos, map: map})
+				  
+			  }
+		
+			initMap()
+			</script>
+			  <script src="https://maps.googleapis.com/maps/api/js?key={{clippings.googlemapskey}}&callback=initMap"
     async defer></script>
+
+			
 			</div>
         </div>
       </div>
