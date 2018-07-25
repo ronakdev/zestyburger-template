@@ -13,6 +13,7 @@
    <clippings>
 		<text name="site_name" name_friendly="Site Name" required="1" />
 		<images name="logo" name_friendly="Site Logo" limit="1" />
+		<text name="googlemapskey" name_friendly="Google Maps Key" />
    </clippings>
 
    <ingredients>
@@ -28,7 +29,7 @@
 			<item link_title="Homepage" path_part="zesty_home">
 				<splash_title><![CDATA[Eat Zesty]]></splash_title>
 				<splash_description><![CDATA[Come and taste the burger revolution at any of our award winning restaurants worldwide.]]></splash_description>
-				<splash_link><![CDATA[http://burger.zesty.site/locations/]]></splash_link>
+				<splash_link><![CDATA[/locations/]]></splash_link>
 				<splash_link_text><![CDATA[Find a Location Near You]]></splash_link_text>
 				<splash_background><![CDATA[https://6c706l48.media.zestyio.com/bg_3.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></splash_background>
 			</item>
@@ -68,7 +69,7 @@
 			<text name="header" name_friendly="header" required="1" />
 			<images name="image" name_friendly="image" required="1" />
 			<text name="link_title" name_friendly="Link Title" required="1" />
-			<link name="link_destination" name_friendly="Link Destination" required="1" />
+			<text name="link_destination" name_friendly="Link Destination" required="1" />
 		 </fields>
 		 <items>
 			<item link_title="About" path_part="about">
@@ -78,7 +79,7 @@ In those blind texts lies the secrets to humanity itself, and listed on the firs
 			   <header><![CDATA[Far, far away]]></header>
 			   <image><![CDATA[https://6c706l48.media.zestyio.com/zestyteam.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></image>
 			   <link_title><![CDATA[See the Zesty Burger]]></link_title>
-			   <link_destination><![CDATA[http://burger.zesty.site/menu.html]]></link_destination>
+			   <link_destination><![CDATA[/menu]]></link_destination>
 			</item>
 		 </items>
 	  </templateset>
@@ -104,6 +105,7 @@ In those blind texts lies the secrets to humanity itself, and listed on the firs
 			<datetime name="date" name_friendly="date" required="1" />
 			<wysiwyg_advanced name="description" name_friendly="Description" required="1" />
 			<textarea name="calendar_description" name_friendly="Calendar Description" required="1" />
+			<uuid name="uuid" name_friendly="UUID" />
 		 </fields>
 		 <items>
 			<item link_title="Pancake Day" path_part="pancake-day" parent="events">
@@ -111,6 +113,7 @@ In those blind texts lies the secrets to humanity itself, and listed on the firs
 			   <date><![CDATA[2018-07-20 11:32:29]]></date>
 			   <description><![CDATA[<p>That's right, for a day, ZestyBurger will become ZestyPancakes! Come taste our amazing, limited time only ZestyPancake!</p>]]></description>
 			   <calendar_description><![CDATA[That's right, for a day, ZestyBurger will become ZestyPancakes! Come taste our amazing, limited time only ZestyPancake!]]></calendar_description>
+			   <uuid><![CDATA[00f95fcf-78b2-4c0e-9980-78d00f72b91f]]></uuid>
 			</item>
 		 </items>
 	  </pageset>
@@ -130,10 +133,16 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			</item>
 		 </items>
 	  </templateset>
-	  <templateset name="locations" name_friendly="Locations" view="locations">
-		 <fields />
+		<templateset name="locations" name_friendly="Locations" view="locations">
+			<fields>
+				<text name="title" name_friendly="Title" />
+				<text name="subtitle" name_friendly="Subtitle" />
+			</fields>
 		 <items>
-			<item link_title="Locations" path_part="locations" />
+			<item link_title="Locations" path_part="locations">
+				<title><![CDATA[2 Locations. Infinite Zest.]]></title>
+				<subtitle><![CDATA[Find the location nearest to you today. Don't see one near you?]]></subtitle>
+			</item>
 		 </items>
 	  </templateset>
 	  <templateset name="usa_locations" name_friendly="USA Locations" view="usa_locations" parent_item="locations">
@@ -163,6 +172,8 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			<text name="careers_subpage_title" name_friendly="Careers Subpage Title" required="1" />
 			<textarea name="careers_subpage_description" name_friendly="Careers Subpage Description" required="1" />
 			<images name="careers_subpage_image" name_friendly="Careers Subpage Image" required="1" />
+			<text name="phone_number" name_friendly="Phone Number" required="1" />
+
 		 </fields>
 		 <items>
 			<item link_title="San Diego" path_part="san-diego" parent="usa">
@@ -185,6 +196,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			   <careers_subpage_title><![CDATA[Zesty Openings]]></careers_subpage_title>
 			   <careers_subpage_description><![CDATA[Join your local cool kids group]]></careers_subpage_description>
 			   <careers_subpage_image><![CDATA[https://svc.zesty.io/media-resolver-service/resolve/3-6a35003-f1yju/getimage/?w=199&h=200&type=fit]]></careers_subpage_image>
+			   <phone_number><![CDATA[(858) 555-5432]]></phone_number>
 			</item>
 		 </items>
 	  </pageset>
@@ -194,6 +206,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			<date name="date" name_friendly="Date" required="1" />
 			<wysiwyg_advanced name="description" name_friendly="description" required="1" />
 			<textarea name="calendar_description" name_friendly="Calendar Description" required="1"/>
+			<uuid name="uuid" name_friendly="UUID" />
 		 </fields>
 		 <items>
 			<item link_title="Opening" path_part="opening" parent="location_pages">
@@ -201,6 +214,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			   <date><![CDATA[2018-07-28]]></date>
 			   <description><![CDATA[We're opening the San Diego Branch! Come and celebrate!]]></description>
 			   <calendar_description><![CDATA[We're opening the San Diego Branch! Come and celebrate!]]></calendar_description>
+			   <uuid><![CDATA[9b9a9cc8-384b-450a-bdd5-712487521ce9]]></uuid>
 			</item>
 		</items>
 	  </pageset>
@@ -225,6 +239,7 @@ Lorem ipsum dolor amet chambray chillwave trust fund, occupy cold-pressed church
 			<yes_no name="vegan" name_friendly="vegan" required="1" />
 			<yes_no name="vegetarian" name_friendly="vegetarian" required="1" />
 			<yes_no name="gluten_free" name_friendly="Gluten Free" required="1" />
+			<yes_no name="featured" name_friendly="featured" />
 		 </fields>
 		 <items>
 			<item link_title="California Burrito" path_part="california-burrito" parent="location_pages">
@@ -236,6 +251,7 @@ Can be made vegetarian on request.]]></description>
 				<vegan><![CDATA[0]]></vegan>
 				<vegetarian><![CDATA[1]]></vegetarian>
 				<gluten_free><![CDATA[0]]></gluten_free>
+				<featured><![CDATA[1]]></featured>
 			</item>
 		 </items>
 	  </pageset>
@@ -272,6 +288,7 @@ Can be made vegetarian on request.]]></description>
 			<yes_no name="gluten_free" name_friendly="Gluten Free" />
 			<images name="images" name_friendly="images" required="1" />
 			<wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+            <yes_no name="featured" name_friendly="featured" />
 		 </fields>
 		 <items>
 			<item link_title="zestyburger" path_part="zestyburger" parent="menu">
@@ -282,6 +299,7 @@ Can be made vegetarian on request.]]></description>
 			   <gluten_free><![CDATA[0]]></gluten_free>
 			   <images><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
 			   <description><![CDATA[These are the Cubans, baby. This is the Cohibas; the Montecristos. This is the ZestyBurger. Come taste our award winning, People's Choice, ZestyBurger today for just $18]]></description>
+			   <featured><![CDATA[1]]></featured>
 			</item>
 		 </items>
 	  </pageset>
@@ -292,6 +310,7 @@ Can be made vegetarian on request.]]></description>
 			<yes_no name="alcoholic" name_friendly="Alcoholic" required="1" />
 			<images name="images" name_friendly="images" required="1" />
 			<wysiwyg_advanced name="description" name_friendly="Description" required="1" />
+		    <yes_no name="featured" name_friendly="featured" />
 		 </fields>
 		 <items>
 			<item link_title="The Cool Mist" path_part="The Cool Mist" parent="menu">
@@ -300,6 +319,7 @@ Can be made vegetarian on request.]]></description>
 			   <alcoholic><![CDATA[1]]></alcoholic>
 			   <images><![CDATA[https://6c706l48.media.zestyio.com/yellow.SJgrxxVXm.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></images>
 			   <description><![CDATA[Powerful, heavy, liberating, this drink takes you back to the good old days.]]></description>
+			   <featured><![CDATA[1]]></featured>
 			</item>
 		 </items>
 	  </pageset>
@@ -327,6 +347,7 @@ Can be made vegetarian on request.]]></description>
 			<textarea name="description" name_friendly="Description" required="1" />
 			<date name="expiration_date" name_friendly="Expiration Date" required="1" />			
 			<images name="display_image" name_friendly="Display Image" required="1" />
+			<uuid name="uuid" name_friendly="uuid" required="1" />
 		 </fields>
 		 <items>
 			<item link_title="" path_part="">
@@ -334,6 +355,7 @@ Can be made vegetarian on request.]]></description>
 			   <description><![CDATA[Celebrate summer with not just one, but two Zesty Burgers! Buy one ZestyBurger and get a second one for free!]]></description>
 			   <expiration_date><![CDATA[2018-09-01]]></expiration_date>
 			   <display_image><![CDATA[https://6c706l48.media.zestyio.com/zestyburger.e30e95fa129be1d3dec75be06ab1c4b4.jpg]]></display_image>
+			   <uuid><![CDATA[4f26a4ae-b1e5-469a-b7e1-c31ed8f9b272]]></uuid>
 			</item>
 		 </items>
 	  </dataset>

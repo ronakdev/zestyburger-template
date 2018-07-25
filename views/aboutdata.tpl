@@ -1,3 +1,3 @@
 {
-	"content" : "{{about.random().description}}"
+	"content" : "{{about.random().description.escapeForJs()}}"
 }
